@@ -1,0 +1,20 @@
+{
+  "name": "req-header-parser",
+  "version": "1.0.0",
+  "description": "This is a basic server function to parse the user's information.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nano index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderEllis/request-header-parser.git"
+  },
+  "author": "Alexander Ellis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderEllis/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/AlexanderEllis/request-header-parser#readme"
+}
