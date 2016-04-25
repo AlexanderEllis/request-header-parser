@@ -17,7 +17,7 @@
     "url": "https://github.com/AlexanderEllis/request-header-parser/issues"
   },
   "homepage": "https://github.com/AlexanderEllis/request-header-parser#readme",
-  "dependencies": {
+  "engines": {
     "node": "4.2.3"
   }
 }
