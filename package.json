@@ -1,20 +1,27 @@
 {
-  "name": "req-header-parser",
+  "name": "timestamp",
   "version": "1.0.0",
-  "description": "This is a basic server function to parse the user's information.",
+  "description": "Timestamp app",
   "main": "index.js",
+  "dependencies": {
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "nano index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexanderEllis/request-header-parser.git"
+    "url": "git+https://github.com/AlexanderEllis/timestamp.git"
   },
-  "author": "Alexander Ellis",
+  "keywords": [
+    "git"
+  ],
+  "author": "Alex",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexanderEllis/request-header-parser/issues"
+    "url": "https://github.com/AlexanderEllis/timestamp/issues"
   },
-  "homepage": "https://github.com/AlexanderEllis/request-header-parser#readme"
+  "homepage": "https://github.com/AlexanderEllis/timestamp#readme"
 }
