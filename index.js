@@ -8,7 +8,7 @@ var server = http.createServer(function(req, res) {
 	ip = req.connection.remoteAddress;
 	language = req.headers['accept-language'];
 	language = language.slice(0, language.indexOf(','));
-	console.log(language);
+	console.log("hey");
 	result = {
 		ipaddress: ip,
 		language: language,
