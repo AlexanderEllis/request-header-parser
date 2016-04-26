@@ -5,7 +5,7 @@ var http = require('http');
 var server = http.createServer(function(req, res) {
 	var system = req.headers['user-agent'];
 	system = system.slice(system.indexOf('(') + 1, system.indexOf(')'));
-	ip = req.connection.remoteAddress;
+	ip = req.connection.remoteAddress.replace(/[:a-z]/g, '');
 	language = req.headers['accept-language'];
 	language = language.slice(0, language.indexOf(','));
 	console.log("hey");
