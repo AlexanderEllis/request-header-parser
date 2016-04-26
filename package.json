@@ -4,7 +4,8 @@
   "description": "Timestamp app",
   "main": "index.js",
   "dependencies": {
-    "node": "^0.0.0"
+    "node": "4.2.3"
+
   },
   "devDependencies": {},
   "scripts": {
@@ -14,17 +15,18 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexanderEllis/requuest-header-parser.git"
+
+
   },
   "keywords": [
     "git"
   ],
   "author": "Alex",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlexanderEllis/request-header-parser/issues"
-  },
+
   "homepage": "https://github.com/AlexanderEllis/request-header-parser#readme",
   "engines": {
     "node": "4.2.3"
   }
+
 }
